@@ -14,7 +14,7 @@
 <body class="bg-black">
     <div class="row justify-content-center">
         <div class="col-2 m-5">
-            <button class="btn btn-primary">Parcourir la bibliothèque</button>
+            <a class="btn btn-primary" href="<%=request.getContextPath()%>/livres">Parcourir la bibliothèque</a>
         </div>
         <div class="col-2 m-5">
             <a class="btn btn-primary" href="<%=request.getContextPath()%>/creationCompte.jsp">Créer un compte</a>
