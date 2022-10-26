@@ -1,0 +1,24 @@
+Bibliotheque project 
+
+pour deployer:
+heroku war:deploy 'C:\Users\jehup\OneDrive\Escritorio\Proyectos restantes Studi\Examen certifiant du bloc -  Le développement d''une solution digitale\bibliotheque\out\artifacts\bibliotheque_war\' --app studibibliotheque
+
+pour consulter:
+https://studibibliotheque.herokuapp.com/
+
+changements:
+
+clone repository: heroku login
+
+
+Clone the repository: 
+$ heroku git:clone -a studibibliotheque 
+$ cd studibibliotheque
+
+Deploy your changes:
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+
+instal mysql jaws:
+heroku addons:create jawsdb:kitefin
